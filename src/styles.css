@@ -1,0 +1,8 @@
+/* Add application styles & imports to this file! */
+.error{
+  color: red;
+}
+:root{
+  --white:#ffff;
+  --blue:rgb(128, 144, 175);
+}
