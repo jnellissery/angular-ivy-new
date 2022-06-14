@@ -1,10 +1,10 @@
-.row{
+.row {
   display: flex;
   flex-wrap: wrap;
-
+  justify-content: center;
 }
-.column{
-  border:1px solid;
+.column {
+  border: 1px solid;
   margin: 10px;
   padding: 10px;
   flex-basis: 0;
@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
 }
-.column:hover{
+.column:hover {
   background-color: var(--blue);
   color: var(--white);
 }
@@ -23,6 +23,6 @@
   display: none;
 }
 .column:hover:after {
-  content: "View List";
+  content: 'View List';
   cursor: pointer;
 }

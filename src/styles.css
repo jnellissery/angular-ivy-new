@@ -5,4 +5,7 @@
 :root{
   --white:#ffff;
   --blue:rgb(128, 144, 175);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  font-weight: 200;
 }
