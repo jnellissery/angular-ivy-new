@@ -15,9 +15,6 @@ export class userResolver implements Resolve<IUsers> {
     route: ActivatedRouteSnapshot,
     state: RouterStateSnapshot
   ): Observable<any> {
-    //console.log(JSON.parse(route.paramMap.get('user')))
-    // console.log("just testing");
-    // { user: JSON.stringify(selectedrow)}
     const selectedrow = this.service.selectedbehaviourget;
     return selectedrow;
   }

@@ -31,7 +31,7 @@ export class UserService {
 
   }
   isLogged(){
-    return true;
+    return false;
   }
   
 
