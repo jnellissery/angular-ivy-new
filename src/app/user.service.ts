@@ -1,4 +1,5 @@
 import { HttpClient } from '@angular/common/http';
+import { TmplAstTextAttribute } from '@angular/compiler';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { IUsers} from './users'
@@ -31,7 +32,7 @@ export class UserService {
 
   }
   isLogged(){
-    return false;
+    return  true;
   }
   
 
